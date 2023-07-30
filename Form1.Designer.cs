@@ -1,4 +1,4 @@
-﻿namespace PRISM_NES
+﻿namespace GET_PAL
 {
     partial class Form1
     {
@@ -50,12 +50,16 @@
             this.saveNametableToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAttribTableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveNTAndATToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tooManyTilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.presetsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sMBToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tooManyTilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -136,10 +140,6 @@
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.blueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.redToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.greenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sMBToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -350,6 +350,61 @@
             this.saveNTAndATToolStripMenuItem.Text = "Save NT and AT *";
             this.saveNTAndATToolStripMenuItem.Click += new System.EventHandler(this.saveNTAndATToolStripMenuItem_Click);
             // 
+            // presetsToolStripMenuItem
+            // 
+            this.presetsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clearToolStripMenuItem,
+            this.graysToolStripMenuItem,
+            this.blueToolStripMenuItem,
+            this.redToolStripMenuItem,
+            this.greenToolStripMenuItem,
+            this.sMBToolStripMenuItem});
+            this.presetsToolStripMenuItem.Name = "presetsToolStripMenuItem";
+            this.presetsToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.presetsToolStripMenuItem.Text = "Presets";
+            // 
+            // clearToolStripMenuItem
+            // 
+            this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.clearToolStripMenuItem.Text = "Clear";
+            this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
+            // 
+            // graysToolStripMenuItem
+            // 
+            this.graysToolStripMenuItem.Name = "graysToolStripMenuItem";
+            this.graysToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.graysToolStripMenuItem.Text = "Grays";
+            this.graysToolStripMenuItem.Click += new System.EventHandler(this.graysToolStripMenuItem_Click);
+            // 
+            // blueToolStripMenuItem
+            // 
+            this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
+            this.blueToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.blueToolStripMenuItem.Text = "Blue";
+            this.blueToolStripMenuItem.Click += new System.EventHandler(this.blueToolStripMenuItem_Click);
+            // 
+            // redToolStripMenuItem
+            // 
+            this.redToolStripMenuItem.Name = "redToolStripMenuItem";
+            this.redToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.redToolStripMenuItem.Text = "Red";
+            this.redToolStripMenuItem.Click += new System.EventHandler(this.redToolStripMenuItem_Click);
+            // 
+            // greenToolStripMenuItem
+            // 
+            this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
+            this.greenToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.greenToolStripMenuItem.Text = "Green";
+            this.greenToolStripMenuItem.Click += new System.EventHandler(this.greenToolStripMenuItem_Click);
+            // 
+            // sMBToolStripMenuItem
+            // 
+            this.sMBToolStripMenuItem.Name = "sMBToolStripMenuItem";
+            this.sMBToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.sMBToolStripMenuItem.Text = "SMB";
+            this.sMBToolStripMenuItem.Click += new System.EventHandler(this.sMBToolStripMenuItem_Click);
+            // 
             // infoToolStripMenuItem
             // 
             this.infoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -372,33 +427,6 @@
             this.tooManyTilesToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.tooManyTilesToolStripMenuItem.Text = "Too Many Tiles";
             this.tooManyTilesToolStripMenuItem.Click += new System.EventHandler(this.tooManyTilesToolStripMenuItem_Click);
-            // 
-            // presetsToolStripMenuItem
-            // 
-            this.presetsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clearToolStripMenuItem,
-            this.graysToolStripMenuItem,
-            this.blueToolStripMenuItem,
-            this.redToolStripMenuItem,
-            this.greenToolStripMenuItem,
-            this.sMBToolStripMenuItem});
-            this.presetsToolStripMenuItem.Name = "presetsToolStripMenuItem";
-            this.presetsToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.presetsToolStripMenuItem.Text = "Presets";
-            // 
-            // clearToolStripMenuItem
-            // 
-            this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.clearToolStripMenuItem.Text = "Clear";
-            this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
-            // 
-            // graysToolStripMenuItem
-            // 
-            this.graysToolStripMenuItem.Name = "graysToolStripMenuItem";
-            this.graysToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.graysToolStripMenuItem.Text = "Grays";
-            this.graysToolStripMenuItem.Click += new System.EventHandler(this.graysToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -724,7 +752,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox2.Image = global::PRISM_NES.Resource1.smoothfbx2;
+            this.pictureBox2.Image = global::GET_PAL.Resource1.smoothfbx2;
             this.pictureBox2.Location = new System.Drawing.Point(315, 96);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(208, 64);
@@ -1206,34 +1234,6 @@
             this.label32.TabIndex = 85;
             this.label32.Text = "Palettes";
             // 
-            // blueToolStripMenuItem
-            // 
-            this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
-            this.blueToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.blueToolStripMenuItem.Text = "Blue";
-            this.blueToolStripMenuItem.Click += new System.EventHandler(this.blueToolStripMenuItem_Click);
-            // 
-            // redToolStripMenuItem
-            // 
-            this.redToolStripMenuItem.Name = "redToolStripMenuItem";
-            this.redToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.redToolStripMenuItem.Text = "Red";
-            this.redToolStripMenuItem.Click += new System.EventHandler(this.redToolStripMenuItem_Click);
-            // 
-            // greenToolStripMenuItem
-            // 
-            this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
-            this.greenToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.greenToolStripMenuItem.Text = "Green";
-            this.greenToolStripMenuItem.Click += new System.EventHandler(this.greenToolStripMenuItem_Click);
-            // 
-            // sMBToolStripMenuItem
-            // 
-            this.sMBToolStripMenuItem.Name = "sMBToolStripMenuItem";
-            this.sMBToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sMBToolStripMenuItem.Text = "SMB";
-            this.sMBToolStripMenuItem.Click += new System.EventHandler(this.sMBToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1324,7 +1324,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "PRISM NES 1.4";
+            this.Text = "GET_PAL for NES 1.4";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

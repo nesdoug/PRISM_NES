@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PRISM_NES
+namespace GET_PAL
 {
     static class Program
     {

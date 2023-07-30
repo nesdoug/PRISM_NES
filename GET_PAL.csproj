@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A0BB46BA-CB18-4794-9AF5-963D0CAA55E9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PRISM_NES</RootNamespace>
-    <AssemblyName>PRISM_NES</AssemblyName>
+    <RootNamespace>GET_PAL</RootNamespace>
+    <AssemblyName>GET_PAL</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -73,6 +73,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Resource1.resx">
       <Generator>ResXFileCodeGenerator</Generator>

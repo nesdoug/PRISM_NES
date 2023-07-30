@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\GET_PAL\bin\Release\GET_PAL.exe.config
+C:\Users\User\source\repos\GET_PAL\bin\Release\GET_PAL.exe
+C:\Users\User\source\repos\GET_PAL\bin\Release\GET_PAL.pdb
+C:\Users\User\source\repos\GET_PAL\obj\Release\GET_PAL.Form1.resources
+C:\Users\User\source\repos\GET_PAL\obj\Release\GET_PAL.Properties.Resources.resources
+C:\Users\User\source\repos\GET_PAL\obj\Release\GET_PAL.Resource1.resources
+C:\Users\User\source\repos\GET_PAL\obj\Release\GET_PAL.csproj.GenerateResource.cache
+C:\Users\User\source\repos\GET_PAL\obj\Release\GET_PAL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GET_PAL\obj\Release\GET_PAL.exe
+C:\Users\User\source\repos\GET_PAL\obj\Release\GET_PAL.pdb
+C:\Users\User\source\repos\GET_PAL\obj\Release\GET_PAL.csprojAssemblyReference.cache

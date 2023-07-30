@@ -1,0 +1,6 @@
+This app was originally named PRISM
+which caused some overly zealous anti-virus
+software to flag it. Apparently there
+are several viruses called PRISM.
+
+Renamed to GET_PAL

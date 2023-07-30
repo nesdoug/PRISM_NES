@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PRISM_NES
+namespace GET_PAL
 {
     public partial class Form1 : Form
     {
@@ -4457,6 +4457,15 @@ namespace PRISM_NES
                 has_loaded = 1;
                 has_converted = 0;
 
+                // clear it
+                for (int y = 0; y < MAX_HEIGHT; y++)
+                {
+                    for (int x = 0; x < MAX_WIDTH; x++)
+                    {
+                        orig_bmp.SetPixel(x, y, Color.Black);
+                    }
+                }
+
 
                 float ratio1 = 1.0F;
                 float ratio2 = 1.0F;
@@ -4565,6 +4574,7 @@ namespace PRISM_NES
                 
                 //label6.Text = "Loaded";
                 label14.Text = "Tiles 0";
+                temp_bmp.Dispose();
             }
             else
             {
@@ -4588,6 +4598,14 @@ namespace PRISM_NES
                     has_loaded = 1;
                     has_converted = 0;
 
+                    // clear it
+                    for (int y = 0; y < MAX_HEIGHT; y++)
+                    {
+                        for (int x = 0; x < MAX_WIDTH; x++)
+                        {
+                            orig_bmp.SetPixel(x, y, Color.Black);
+                        }
+                    }
 
                     Bitmap temp_bmp = new Bitmap(dlg.FileName);
 

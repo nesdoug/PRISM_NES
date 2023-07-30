@@ -1,5 +1,12 @@
-Prism NES
+GET_PAL - a 13 color NES image converter
 (c) Doug Fraker, 2021
+
+.NET 4.5.2 (works with MONO on non-Windows systems)
+
+Updates -
+1.4 - renamed it to quiet false alarm on download
+    - issue with loading images with transparency
+      now blanks to black before loading.
 
 update, you can now save as .dz4 compression file 
 (a file system also by Doug Fraker).

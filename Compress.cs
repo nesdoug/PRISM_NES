@@ -15,7 +15,7 @@
 
 using System.Windows.Forms;
 
-namespace PRISM_NES
+namespace GET_PAL
 {
     public partial class Form1
     {
